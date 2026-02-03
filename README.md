@@ -1,10 +1,10 @@
-# 📊 Periotable
+# 📊 Periodix
 
-**Periotable** is a web application that renders an interactive **periodic table of elements**, offering both visual engagement and scientific insights.
+**Periodix** is a web application that renders an interactive **Periodix table of elements**, offering both visual engagement and scientific insights.
 
 ## 🧠 Description
 
-Periotable is one of the developer’s early JavaScript projects, built using **Vanilla JavaScript** to sharpen coding skills and express a passion for physics and chemistry. The application is fully functional and serves as both a learning tool and a base for future improvements.
+Periodix is one of the developer’s early JavaScript projects, built using **Vanilla JavaScript** to sharpen coding skills and express a passion for physics and chemistry. The application is fully functional and serves as both a learning tool and a base for future improvements.
 
 This project demonstrates:
 
@@ -21,14 +21,14 @@ This project demonstrates:
 | Technology             | Purpose                                                                 |
 | ---------------------- | ----------------------------------------------------------------------- |
 | **Vanilla JavaScript** | Controls logic, element interactions, and data rendering                |
-| **HTML**               | Provides the structure of the periodic table and UI                     |
+| **HTML**               | Provides the structure of the Periodix table and UI                     |
 | **CSS**                | Styles the interface with color coding, grid layout, and responsiveness |
 
 ---
 
 ## 🚀 Key Features
 
-### 🔹 Interactive Periodic Table
+### 🔹 Interactive Periodix Table
 
 * A dynamic grid displaying all known chemical elements
 * Visually organized by groups and periods
@@ -59,12 +59,12 @@ This project demonstrates:
 
 ## 📥 Getting Started
 
-To run Periotable locally:
+To run Periodix locally:
 
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/Pro-Bandey/Periotable.git
+git clone https://github.com/Pro-Bandey/Periodix.git
 ```
 
 2. **Open the project**
@@ -97,7 +97,7 @@ Suggested contribution areas:
 
 ## 🧪 Learning Outcomes (for Developers)
 
-By building and improving Periotable, you can:
+By building and improving Periodix, you can:
 
 * Strengthen Vanilla JS skills
 * Practice DOM manipulation and event handling

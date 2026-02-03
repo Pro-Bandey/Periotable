@@ -24,38 +24,38 @@
     
         --BgColor : #202e39; /*  2e3542*/
     
-        --NotMetal : #383a78;     /* NotMetal */
-        --RareGaz : #6b468a;     /* RareGaz */
-        --AlcalineMetal : #63414b;     /* AlcalineMetal */
-        --AlacinoGroundMetal : #685146;     /* AlacinoGroundMetal */
-        --Metaloid : #2a5374;     /* Metaloid */
-        --Semiconductor : #2f6859;     /* Semiconductor */
+        --NonMetal : #383a78;     /* NonMetal */
+        --NobleGas : #6b468a;     /* NobleGas */
+        --AlkalineMetal : #63414b;     /* AlkalineMetal */
+        --AlkalineEarthMetal : #685146;     /* AlkalineEarthMetal */
+        --Metalloid : #2a5374;     /* Metalloid */
+        --PostTransitionMetal : #2f6859;     /* PostTransitionMetal */
         --Halogen : #534693;     /* Halogen */
         --TransitionMetal : #46536c;     /* TransitionMetal */
-        --Lanthanides : #534e4b;     /* Lanthanides */
-        --Actinides : #534345;    /* Actinides */
+        --Lanthanoids : #534e4b;     /* Lanthanoids */
+        --Actinoids : #534345;    /* Actinoids */
 
-        --NotMetal: #414395;
-        --RareGaz: #7d4ba7;
-        --AlcalineMetal: #9b4961;
-        --AlacinoGroundMetal: #996146;
-        --Metaloid: #4684b7;
-        --Semiconductor: #349178;
+        --NonMetal: #414395;
+        --NobleGas: #7d4ba7;
+        --AlkalineMetal: #9b4961;
+        --AlkalineEarthMetal: #996146;
+        --Metalloid: #4684b7;
+        --PostTransitionMetal: #349178;
         --Halogen: #5745ab;
         --TransitionMetal: #4d5564;
-        --Lanthanides: #834040;
-        --Actinides: #682c33;
+        --Lanthanoids: #834040;
+        --Actinoids: #682c33;
 
-        --NotMetalMinimal : #00f8e1;     /* NotMetal */ 
-        --RareGazMinimal : #a45fff;     /* RareGaz */
-        --AlcalineMetalMinimal : #00ffa2;     /* AlcalineMetal */
-        --AlacinoGroundMetalMinimal : #e59e83;     /* AlacinoGroundMetal */
-        --MetaloidMinimal : #0aff83;     /* Metaloid */
-        --SemiconductorMinimal : #b0ed1e;     /* Semiconductor */
+        --NonMetalMinimal : #00f8e1;     /* NonMetal */ 
+        --NobleGasMinimal : #a45fff;     /* NobleGas */
+        --AlkalineMetalMinimal : #00ffa2;     /* AlkalineMetal */
+        --AlkalineEarthMetalMinimal : #e59e83;     /* AlkalineEarthMetal */
+        --MetalloidMinimal : #0aff83;     /* Metalloid */
+        --PostTransitionMetalMinimal : #b0ed1e;     /* PostTransitionMetal */
         --HalogenMinimal : #00b1e6;     /* Halogen */
         --TransitionMetalMinimal : #fdffd9;     /* TransitionMetal */
-        --LanthanidesMinimal : #ff3394;     /* Lanthanides */
-        --ActinidesMinimal : #c970c2;    /* Actinides */
+        --LanthanoidsMinimal : #ff3394;     /* Lanthanoids */
+        --ActinoidsMinimal : #c970c2;    /* Actinoids */
 
         --ElectronColor : #ffffff;
         --ElectronBorder : #2e3542;
@@ -264,13 +264,13 @@
 
         .StyleMinimalist{
             border: none;
-            color: var(--NotMetalMinimal);
+            color: var(--NonMetalMinimal);
             border-radius: 4px;
         }
 
         .StyleClassic{
             border: none;
-            background-color: var(--NotMetal);
+            background-color: var(--NonMetal);
             color: white;
         }
 
@@ -846,26 +846,26 @@
             cursor: progress!important;  
         }
     
-        .NotMetal{background-color: var(--NotMetal);}
-        .RareGaz{background-color: var(--RareGaz);}
-        .AlcalineMetal{background-color: var(--AlcalineMetal);}
-        .AlacinoGroundMetal{background-color: var(--AlacinoGroundMetal);}
-        .Metaloid{background-color: var(--Metaloid);}
-        .Semiconductor{background-color: var(--Semiconductor);}
+        .NonMetal{background-color: var(--NonMetal);}
+        .NobleGas{background-color: var(--NobleGas);}
+        .AlkalineMetal{background-color: var(--AlkalineMetal);}
+        .AlkalineEarthMetal{background-color: var(--AlkalineEarthMetal);}
+        .Metalloid{background-color: var(--Metalloid);}
+        .PostTransitionMetal{background-color: var(--PostTransitionMetal);}
         .Halogen{background-color: var(--Halogen);}
         .TransitionMetal{background-color: var(--TransitionMetal);}
-        .Lanthanides{background-color: var(--Lanthanides);}
-        .Actinides{background-color: var(--Actinides);}
+        .Lanthanoids{background-color: var(--Lanthanoids);}
+        .Actinoids{background-color: var(--Actinoids);}
         .selected{
             background-color: white;
             color: black!important;
         }       
 
-        .dot1{background-color: var(--NotMetal);}
-        .dot2{background-color: var(--RareGaz);}
-        .dot3{background-color: var(--AlcalineMetal);}
-        .dot4{background-color: var(--AlacinoGroundMetal);}
-        .dot5{background-color: var(--Metaloid);}
+        .dot1{background-color: var(--NonMetal);}
+        .dot2{background-color: var(--NobleGas);}
+        .dot3{background-color: var(--AlkalineMetal);}
+        .dot4{background-color: var(--AlkalineEarthMetal);}
+        .dot5{background-color: var(--Metalloid);}
 
        
 

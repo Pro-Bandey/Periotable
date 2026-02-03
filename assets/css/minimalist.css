@@ -9,13 +9,13 @@
         }
 
         
-        .minimalist .NotMetal{border-bottom: 0px solid var(--NotMetal);color: var(--NotMetalMinimal);}
-        .minimalist .RareGaz{border-bottom: 0px solid var(--RareGaz);color: var(--RareGazMinimal);}
-        .minimalist .AlcalineMetal{border-bottom: 0px solid var(--AlcalineMetal);color: var(--AlcalineMetalMinimal);}
-        .minimalist .AlacinoGroundMetal{border-bottom: 0px solid var(--AlacinoGroundMetal);color: var(--AlacinoGroundMetalMinimal);}
-        .minimalist .Metaloid{border-bottom: 0px solid var(--Metaloid);color: var(--MetaloidMinimal);}
-        .minimalist .Semiconductor{border-bottom: 0px solid var(--Semiconductor);color: var(--SemiconductorMinimal);}
+        .minimalist .NonMetal{border-bottom: 0px solid var(--NonMetal);color: var(--NonMetalMinimal);}
+        .minimalist .NobleGas{border-bottom: 0px solid var(--NobleGas);color: var(--NobleGasMinimal);}
+        .minimalist .AlkalineMetal{border-bottom: 0px solid var(--AlkalineMetal);color: var(--AlkalineMetalMinimal);}
+        .minimalist .AlkalineEarthMetal{border-bottom: 0px solid var(--AlkalineEarthMetal);color: var(--AlkalineEarthMetalMinimal);}
+        .minimalist .Metalloid{border-bottom: 0px solid var(--Metalloid);color: var(--MetalloidMinimal);}
+        .minimalist .PostTransitionMetal{border-bottom: 0px solid var(--PostTransitionMetal);color: var(--PostTransitionMetalMinimal);}
         .minimalist .Halogen{border-bottom: 0px solid var(--Halogen);color: var(--HalogenMinimal);}
         .minimalist .TransitionMetal{border-bottom: 0px solid var(--TransitionMetal);color: var(--TransitionMetalMinimal);}
-        .minimalist .Lanthanides{border-bottom: 0px solid var(--Lanthanides);color: var(--LanthanidesMinimal);}
-        .minimalist .Actinides{border-bottom: 0px solid var(--Actinides);color: var(--ActinidesMinimal);}
+        .minimalist .Lanthanoids{border-bottom: 0px solid var(--Lanthanoids);color: var(--LanthanoidsMinimal);}
+        .minimalist .Actinoids{border-bottom: 0px solid var(--Actinoids);color: var(--ActinoidsMinimal);}
