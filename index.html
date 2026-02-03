@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PeriodiX - Tableau périodique des éléments</title>
+    <meta name="description" content="Tableau périodique des éléments moderne et responsive, intégralement en Français avec images et données fiables.">
+    <link rel="shortcut icon" type="image/png" href="assets/media/img/logoicon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/minimalist.css">    
+</head>
+<body>
+ 
+    <div class="menu ToBlur" id="menu">
+
+      <div class="Logo">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="logosvg" x="0px" y="0px" viewBox="0 0 547.3 100" style="enable-background:new 0 0 547.3 100;" xml:space="preserve">
+          <g>
+            <path d="M41.5,46.9c7.4,0,13.4-6.1,13.4-13.4S48.9,20,41.5,20H15.4v-11h26.1c13.4,0,24.4,11,24.4,24.4c0,9.4-5.5,18-13.9,22   c-3.3,1.6-6.8,2.4-10.5,2.4H26.4V86h-11V46.9H41.5z"/>
+            <path d="M86.3,9.1h53.2v11H86.3V9.1z M86.3,42h53.2v11H86.3V42z M139.5,86H86.3V75h53.2V86z"/>
+            <path d="M159.9,57.9v-11H186c7.4,0,13.4-6.1,13.4-13.4S193.3,20,186,20h-26.1v-11H186c13.4,0,24.4,11,24.4,24.4   c0,9.4-5.5,18-13.9,22l-3,1.4l17.3,29H198l-16.8-28.1H159.9z"/>
+            <path d="M242.2,9.1V86h-11V9.1H242.2z"/>
+            <path d="M363.5,20V9h14.8c21.1,0,38.5,17.3,38.5,38.5s-17.3,38.5-38.5,38.5h-14.8v-11h14.8c15.1,0,27.5-12.4,27.5-27.5   S393.3,20,378.2,20H363.5z"/>
+            <path d="M448,9.1V86h-11V9.1H448z"/>
+            <path style="display:none;" d="M503.1,9h14.8v11h-14.8c-15.1,0-27.5,12.4-27.5,27.5s12.4,27.5,27.5,27.5h14.8v11h-14.8   c-21.1,0-38.5-17.3-38.5-38.5S482,9,503.1,9z"/>
+            <path d="M464.6,9.1H478L531.9,86h-13.4l-20.2-28.9L478,86h-13.4l26.9-38.5L464.6,9.1z M513.3,35.6l18.6-26.5h-13.4l-11.9,17   L513.3,35.6z"/>
+            <g id="CircleAtom">
+              <defs>
+                <filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="262.6" y="7.2" width="80.5" height="80.5">
+                  <feFlood style="flood-color:white;flood-opacity:1" result="back"/>
+                  <feBlend in="SourceGraphic" in2="back" mode="normal"/>
+                </filter>
+              </defs>
+              <mask maskUnits="userSpaceOnUse" x="262.6" y="7.2" width="80.5" height="80.5" id="SVGID_1_">
+                <g style="filter:url(#Adobe_OpacityMaskFilter);">
+                  <circle cx="302.8" cy="82.2" r="16.5"/>
+                </g>
+              </mask>
+              <path style="mask:url(#SVGID_1_);" d="M302.9,7.2c22.2,0,40.3,18,40.3,40.3s-18,40.3-40.3,40.3c-22.2,0-40.3-18-40.3-40.3    S280.6,7.2,302.9,7.2z M332.2,47.4c0-16.2-13.1-29.3-29.3-29.3c-16.2,0-29.3,13.1-29.3,29.3s13.1,29.3,29.3,29.3    C319,76.7,332.2,63.6,332.2,47.4z"/>
+              <circle cx="302.8" cy="82.2" r="10.6"/>
+            </g>
+          </g>
+          </svg>
+      </div>     
+
+      <div class="dropdown">
+            <input type="checkbox" id="dropdown">
+          
+            <label class="dropdown__face" for="dropdown">
+              <div class="dropdown__arrow"></div>
+              <div class="dropdown__text">Periodic</div>     
+            </label>
+          
+            <ul class="dropdown__items">
+              <li>  <a class="Filterbutton" data-sort="Initial" data-filter="grid-item"><div class="dot dot1"></div>Periodic</a></li>
+              <li> <a class="Filterbutton" data-sort="Name" data-filter="element"><div class="dot dot2"></div>Nom</a></li>
+              <li> <a class="Filterbutton" data-sort="Number" data-filter="element"><div class="dot dot3"></div>N° Atomique</a></li>
+              <li> <a class="Filterbutton" data-sort="Mass" data-filter="element"><div class="dot dot4"></div>Masse</a></li>
+              <li> <a class="Filterbutton" data-sort="Type" data-filter="element"><div class="dot dot5"></div>Famille</a></li>
+              <li> <a class="Filterbutton" data-sort="Discover" data-filter="element"><div class="dot dot5"></div>Découverte</a></li>
+              <li> <a class="Filterbutton" data-sort="Fusion" data-filter="element"><div class="dot dot5"></div>Fusion</a></li>
+            </ul>
+            <svg  width="0" height="0">
+              <filter id="goo">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="7" result="blur" />
+                <feColorMatrix in="blur" type="matrix" values="
+                1 0 0 0 0
+                0 1 0 0 0
+                0 0 1 0 0
+                -1 -1 -1 16 -7" result="goo" />
+                <feBlend in="SourceGraphic" in2="goo" />
+              </filter>
+            </svg>            
+      </div>
+                    
+      <div class="SettingsMenu">
+        <a class="Informations">i</a>  
+      </div>
+                    
+    </div>
+
+    <div class="MessageInfo">
+      <div class="MessageLogo">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="logosvg" x="0px" y="0px" viewBox="0 0 547.3 100" style="enable-background:new 0 0 547.3 100;" xml:space="preserve">
+          <g>
+            <path d="M41.5,46.9c7.4,0,13.4-6.1,13.4-13.4S48.9,20,41.5,20H15.4v-11h26.1c13.4,0,24.4,11,24.4,24.4c0,9.4-5.5,18-13.9,22   c-3.3,1.6-6.8,2.4-10.5,2.4H26.4V86h-11V46.9H41.5z"></path>
+            <path d="M86.3,9.1h53.2v11H86.3V9.1z M86.3,42h53.2v11H86.3V42z M139.5,86H86.3V75h53.2V86z"></path>
+            <path d="M159.9,57.9v-11H186c7.4,0,13.4-6.1,13.4-13.4S193.3,20,186,20h-26.1v-11H186c13.4,0,24.4,11,24.4,24.4   c0,9.4-5.5,18-13.9,22l-3,1.4l17.3,29H198l-16.8-28.1H159.9z"></path>
+            <path d="M242.2,9.1V86h-11V9.1H242.2z"></path>
+            <path d="M363.5,20V9h14.8c21.1,0,38.5,17.3,38.5,38.5s-17.3,38.5-38.5,38.5h-14.8v-11h14.8c15.1,0,27.5-12.4,27.5-27.5   S393.3,20,378.2,20H363.5z"></path>
+            <path d="M448,9.1V86h-11V9.1H448z"></path>
+            <path style="display:none;" d="M503.1,9h14.8v11h-14.8c-15.1,0-27.5,12.4-27.5,27.5s12.4,27.5,27.5,27.5h14.8v11h-14.8   c-21.1,0-38.5-17.3-38.5-38.5S482,9,503.1,9z"></path>
+            <path d="M464.6,9.1H478L531.9,86h-13.4l-20.2-28.9L478,86h-13.4l26.9-38.5L464.6,9.1z M513.3,35.6l18.6-26.5h-13.4l-11.9,17   L513.3,35.6z"></path>
+            <g id="CircleAtom">
+              <defs>
+                <filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="262.6" y="7.2" width="80.5" height="80.5">
+                  <feFlood style="flood-color:white;flood-opacity:1" result="back"></feFlood>
+                  <feBlend in="SourceGraphic" in2="back" mode="normal"></feBlend>
+                </filter>
+              </defs>
+              <mask maskUnits="userSpaceOnUse" x="262.6" y="7.2" width="80.5" height="80.5" id="SVGID_1_">
+                <g style="filter:url(#Adobe_OpacityMaskFilter);">
+                  <circle cx="302.8" cy="82.2" r="16.5"></circle>
+                </g>
+              </mask>
+              <path style="mask:url(#SVGID_1_);" d="M302.9,7.2c22.2,0,40.3,18,40.3,40.3s-18,40.3-40.3,40.3c-22.2,0-40.3-18-40.3-40.3    S280.6,7.2,302.9,7.2z M332.2,47.4c0-16.2-13.1-29.3-29.3-29.3c-16.2,0-29.3,13.1-29.3,29.3s13.1,29.3,29.3,29.3    C319,76.7,332.2,63.6,332.2,47.4z"></path>
+              <circle cx="302.8" cy="82.2" r="10.6"></circle>
+            </g>
+          </g>
+          </svg>
+      </div>
+      <h4>Version 1.0.4</h4>
+      <p>PeriodiX a été développé en HTML, CSS et Vanilla JS.</p>
+      <p>J'ai utilisé des plugins comme Isotope JS et <a class="Link" href="https://codepen.io/FelixLuciano/pen/PVMrEO">Electronic Algorythm</a></p>
+      <h2>Design éléments</h2>
+      <div class="StyleTableContainer">
+        <div data-parameter="minimalist" class="StyleTable StyleMinimalist ParametersClick">
+            <div class="StyleNumber">0</div>
+            <div class="StyleLetter">S</div>
+            <div class="StyleName">Style</div>
+        </div>
+        <div data-parameter="classic" class="StyleTable StyleClassic ParametersClick">
+            <div class="StyleNumber">0</div>
+            <div class="StyleLetter">S</div>
+            <div class="StyleName">Style</div>
+        </div>
+      </div>
+      <h2>Paramètres</h2>
+      <div class="MessageButton">
+          <a data-parameter="true" id="GridVisibility" class="ParametersClick">Grille Visible</a>
+          <a data-parameter="false" id="Responsivity" class="ParametersClick unchecked" >Reponsive désactivé</a>
+      </div>
+    </div> 
+    
+
+    <div id="HorizontalList" class="HorizontalList"></div>
+
+    <div class="Tableau grid ToBlur" id="Tableau">
+
+      <svg class="ToBlur SelectorGrid SelectorGridH" id="SelectorGridH1" xmlns="http://www.w3.org/2000/svg">
+        <line class="LineSelectorGridH" x1="0" y1="0" x2="100%" y2="0%"></line>                    
+      </svg> 
+      <svg class="ToBlur SelectorGrid SelectorGridH" id="SelectorGridH2" xmlns="http://www.w3.org/2000/svg">
+        <line class="LineSelectorGridH" x1="0" y1="0" x2="100%" y2="0%"></line>                    
+      </svg> 
+      <svg class="ToBlur SelectorGrid SelectorGridV" id="SelectorGridV1" xmlns="http://www.w3.org/2000/svg">
+        <line class="LineSelectorGridV" x1="0" y1="0" x2="0" y2="100%"></line>                    
+      </svg> 
+      <svg class="ToBlur SelectorGrid SelectorGridV" id="SelectorGridV2" xmlns="http://www.w3.org/2000/svg">
+        <line class="LineSelectorGridV" x1="0" y1="0" x2="0" y2="100%"></line>                    
+      </svg> 
+
+      <!-- SVG Animation Grid -->
+      <div class="DrawSvg" id="DrawSvg">
+        <div id="VerticalSvg"></div>
+        <div id="HorizontalSvg"></div>      
+      </div>
+
+      <!-- Info Big -->
+        <div class="displayItem">
+          <div class="AtomInfo">   
+            <h3 class="NumberInfo">1</h3>          
+            <h3 class="LetterInfo">V</h3>                 
+            <h3 class="MassInfo">1.0</h3>                    
+          </div>
+          <div class="AtomInfoBis">
+            <h3 class="NameInfo">Atomes</h3>  
+            <p class="DescInfo">Passez la souris sur un Atome pour en apprendre un peu plus, et cliquez dessus si vous voulez tout savoir.</p>
+          </div>
+          
+          <div id="Atom">
+              <div class="nucleus"></div>
+              <div class="electrospheres"></div>
+          </div>
+        </div>
+
+
+    </div>
+    <div id="overlay" class="overlay"></div>
+    <script src="assets/js/atom3.js"></script>
+    <script src="assets/js/isotope.js"></script>
+    <script src="assets/js/horizontal.js"></script>
+    <script src="assets/js/atomic.js"></script>
+    <script src="assets/js/core.js"></script>
+    <script src="assets/js/addon.js"></script>
+</body>
+</html>

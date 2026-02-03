@@ -1,0 +1,21 @@
+
+        .minimalist .grid-item:not(.Clone), .minimalist .HorizEl:not(.selected){
+            background:none;
+            border-radius: 6px;
+        }
+
+        .minimalist .Clone,  .minimalist .selected{
+            border-radius: 6px;
+        }
+
+        
+        .minimalist .NotMetal{border-bottom: 0px solid var(--NotMetal);color: var(--NotMetalMinimal);}
+        .minimalist .RareGaz{border-bottom: 0px solid var(--RareGaz);color: var(--RareGazMinimal);}
+        .minimalist .AlcalineMetal{border-bottom: 0px solid var(--AlcalineMetal);color: var(--AlcalineMetalMinimal);}
+        .minimalist .AlacinoGroundMetal{border-bottom: 0px solid var(--AlacinoGroundMetal);color: var(--AlacinoGroundMetalMinimal);}
+        .minimalist .Metaloid{border-bottom: 0px solid var(--Metaloid);color: var(--MetaloidMinimal);}
+        .minimalist .Semiconductor{border-bottom: 0px solid var(--Semiconductor);color: var(--SemiconductorMinimal);}
+        .minimalist .Halogen{border-bottom: 0px solid var(--Halogen);color: var(--HalogenMinimal);}
+        .minimalist .TransitionMetal{border-bottom: 0px solid var(--TransitionMetal);color: var(--TransitionMetalMinimal);}
+        .minimalist .Lanthanides{border-bottom: 0px solid var(--Lanthanides);color: var(--LanthanidesMinimal);}
+        .minimalist .Actinides{border-bottom: 0px solid var(--Actinides);color: var(--ActinidesMinimal);}
