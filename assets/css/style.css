@@ -8,11 +8,8 @@
 
         --BaseWidth : 100px;
 
-        --WidthElement: 100px;/*calc(100% / var(--LargeWindows)) */ /* Not Responsive*/
-        --MinWidthElement : var(--WidthElement);
-
-        --WidthElement: calc(100vh / 11.5);
-        --MinWidthElement : calc(100vh / 11.5);
+        --WidthElement: calc(100vh / 12.5);
+        --MinWidthElement : calc(100vh / 12.5);
 
         --TableauWidth : calc(var(--WidthElement) * 18);
         --TableauMarginTop : calc(100vh / 10);
@@ -970,9 +967,9 @@
             justify-content: center;
             background: none;
             /* border: 1px solid white; */
-            width: calc(var(--WidthElement) * 2);
+            width: calc(var(--WidthElement) * 1.5);
             display: flex;
-            height: calc(var(--WidthElement) * 2);
+            height: calc(var(--WidthElement) * 1.5);
             flex-direction: column;
             position: relative;
         }
